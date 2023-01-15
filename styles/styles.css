@@ -235,3 +235,23 @@
     align-items: center;
 }
 
+/* Extra Section Style */
+
+.extra-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra-sec img{
+    width: 600px;
+}
+.extra-sec input{
+    margin-bottom: 30px;
+}
+/* Footer Styles */
+.footer{
+    background-color: #FFF4E7;
+    padding: 39px 410px;
+    margin: 130px 240px 210px 240px;
+}
+
