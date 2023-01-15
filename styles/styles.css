@@ -254,4 +254,43 @@
     padding: 39px 410px;
     margin: 130px 240px 210px 240px;
 }
+/* For smaller Devices */
+@media screen and (max-width: 576px){
+    .header{
+        width: 100%;
+        background-color: none;
+    }
+    .header-container{
+        margin-left: 40px;
+    }
+    
+    .header-texts {
+        margin-left: 40px;
+        width: 500px;
+    }
+    .header-title {
+        width: 75%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .nav-bar{
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .header-container{
+        width: 20%;
+
+    }
+    .nav-bar h2{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .menu-list{
+        flex-direction: column;
+    }
+    .banner-pic{
+        width: 75px;
+    }
+    
+}
 
